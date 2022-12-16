@@ -46,12 +46,12 @@ useEffect(() => {
 
   return (
     <>
-    {/* // <div   >
+    {/* // <div class  >
     //     PokemonList  sdf
     //     {console.log({pokeList})}
     // </div> */}
      
-  <ul >
+  <ul className='list'>
   {/* {console.log(posts)} */}
     {
     pokeList.map(
