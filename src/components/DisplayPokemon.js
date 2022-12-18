@@ -9,7 +9,7 @@ export const DisplayPokemon = ({poke}) => {
     <div className='detail '>
         
        
-        <img src={poke.sprites.other.home.front_default}  />
+        <img src={poke.sprites.other.home.front_default} alt="pokemon image"  />
         <h1>{poke.name}</h1> 
         {/* <p> {poke.stats.stat.name}  </p> */}
         {/* <h3> {poke.moves.move.name} </h3> */}
@@ -23,7 +23,7 @@ export const DisplayPokemon = ({poke}) => {
     </>
 
     
-
+ 
 
   )
 }

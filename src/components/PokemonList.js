@@ -51,12 +51,12 @@ useEffect(() => {
     //     {console.log({pokeList})}
     // </div> */}
      
-  <ul className='list'>
+  <ul className='list' data-testid={"pokemonList"}  >
   {/* {console.log(posts)} */}
     {
     pokeList.map(
         pokemon => (
-                    <li key={pokemon.url} id={pokemon.url} onClick={renderPokeMon}>
+                    <li data-testid={"myPokemonListItem"}   key={pokemon.url} id={pokemon.url} onClick={renderPokeMon}>
                     {pokemon.name}
                     </li>
                 )
